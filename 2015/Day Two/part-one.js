@@ -1,5 +1,5 @@
 let input = process.argv.slice(2)[0].split("\n");
-let parsedInput = [];
+const parsedInput = [];
 for (let i = 0; i < input.length; i++) {
     const splitInput = input[i].split('x');
     parsedInput.push({ length: splitInput[0], width: splitInput[1], height: splitInput[2] });
